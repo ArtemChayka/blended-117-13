@@ -329,7 +329,7 @@ img {
 }
 .section-four-wrapper-two {
   padding: 41px 35px 40px 0;
-  max-width: 430px;
+  max-width: 44git 0px;
 }
 .section-four-title {
   font-weight: 600;
@@ -366,17 +366,18 @@ img {
   border-radius: 14px;
   width: 35px;
   height: 35px;
-  background: #f90;
+  background-color: #f90;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-shrink: 0;
 }
 .section-four-list-item:nth-child(2) .section-four-icon-container{
-background: #f03e3d;
+background-color: #f03e3d;
 }
 
 .section-four-list-item:nth-child(3) .section-four-icon-container{
-background: #4d8dff;
+background-color: #4d8dff;
 }
 
 .section-four-icon {
@@ -769,7 +770,7 @@ background: #4d8dff;
 }
 .section-nine-list-item {
   padding: 28px 26px;
-  width: 320px;
+  width: calc((100% - 129px) / 3)
 }
 
 .section-nine-title {
