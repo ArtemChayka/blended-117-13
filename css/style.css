@@ -259,7 +259,7 @@ img {
 
 /* #region section three */
 .section-three {
-  padding: 50px 0 100px;
+  padding-bottom: 100px;
 }
 
 .section-three-container-three {
@@ -839,7 +839,10 @@ img {
 .section-ten {
   padding-bottom: 100px;
 }
+.section-ten-customer{
+  padding: 150px 0px;
 
+}
 .container-ten {
   margin: 0 auto;
   padding: 0 46px 0 51px;
@@ -1104,10 +1107,12 @@ color: #22343d;
 }
 
 .section-product-work-wrapper{
-  max-width: 445px;
+  max-width: 387px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+.section-product-work-wrapper-one{
   margin-left: 89px;
 }
 .section-product-work-wrapper-two{
@@ -1115,7 +1120,7 @@ color: #22343d;
 }
 .section-product-work-wrapper-three{
   margin-left: 88px;
-}
+} 
 .section-product-work-btn{
   display: block;
   border-radius: 8px;
@@ -1129,5 +1134,89 @@ font-weight: 600;
 font-size: 18px;
 color: #fff;
 }
+.section-product-work-list-item-title{
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  color: #22343d;
+  margin-bottom: 16px;
+}
 
+.section-product-work-list-item-subtitle {
+font-weight: 600;
+font-size: 24px;
+text-align: center;
+color: #22343d;
+margin-bottom: 16px;
+}
+.section-product-work-list-item-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #22343d;
+}
 /* #endregion customers product-work*/
+
+
+/* #region customers received-offers*/
+.section-received-offers {
+  padding: 35px 0 45px;
+  background: linear-gradient(180deg, #f5f5f5 0%, rgba(245, 245, 245, 0) 100%);
+}
+.section-received-offers-title{
+  font-weight: 700;
+font-size: 32px;
+text-align: center;
+color: #22343d;
+max-width: 537px;
+margin: 0 auto 93px;
+}
+.section-received-offers-list{
+  margin-bottom: 195px;
+  display: flex;
+  justify-content: center;
+  gap: 227px;
+}
+.section-received-offers-list-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-received-offers-list-item-span{
+  margin-bottom: 27px;
+  border-radius: 100px;
+width: 150px;
+height: 150px;
+background-color: #ffefef;
+display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-received-offers-list-item-subtitle{
+  font-weight: 500;
+  font-size: 24px;
+    line-height: 1.17;
+  color: #000;
+  margin-bottom: 16px;
+
+}
+
+.received-offers-list-item-subtitle-menu {
+  font-weight: 400;
+font-size: 18px;
+line-height: 1.78;
+color: #22343d;
+}
+
+.received-offers-list-item-subtitle-text{
+  font-weight: 600;
+  font-size: 16px;
+    line-height: 1.75;
+  color: #000;
+  margin-top: 12px;
+}
+
+/* #endregion customers received-offers*/
