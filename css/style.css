@@ -928,6 +928,14 @@ img {
   font-size: 20px;
   line-height: 1.5;
   color: #22343d;
+  margin-bottom: 8px;
+}
+.footer-container-form-title{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #22343d;
+  margin-bottom: 30px;
 }
 .footer-container-item-link {
   font-weight: 400;
