@@ -1124,7 +1124,7 @@ img {
 
 
 
-
+/* CUSTOMERS */
 
 /* #region customers clients */
 .section-clients {
@@ -1342,19 +1342,15 @@ img {
 
 
 
-
+/* PRICING */
 
 /*region pricing question*/
 
-.section-question {
-  padding-bottom: 150px;
+.section-pricing-question-container {
+  max-width: 855px;
 }
 
-.section-question-container {
-  padding: 0 115px;
-}
-
-.title-section-question {
+.title-section-pricing-question {
   font-weight: 700;
   font-size: 34px;
   color: #22343d;
@@ -1362,7 +1358,7 @@ img {
   margin-bottom: 8px;
 }
 
-.text-section-question {
+.text-section-pricing-question {
   font-weight: 400;
   font-size: 18px;
   color: #22343d;
@@ -1370,39 +1366,73 @@ img {
   margin-bottom: 50px;
 }
 
-.section-question-list-item:not(:last-child) {
-margin-bottom: 16px;
+
+.section-pricing-question-list-item:not(:last-child) {
+  margin-bottom: 16px;
 }
 
-.section-question-item-title {
+.section-pricing-question-item-title {
   font-weight: 500;
   font-size: 18px;
   color: #22343d;
-  display: flex;
-  align-items: center;
-  gap: 16px;
 }
 
-.section-question-item-text {
+.section-pricing-question-item-text {
   font-weight: 400;
   font-size: 16px;
   color: #22343d;
   margin-top: 14px;
 }
 
-.section-question-item-title::before {
-  content: '';
-  background-image: url('../images/pricing/plus-circle.png');
-  
-  width: 24px;
-  height: 24px;
-}
-.section-question-marker:active .section-question-item-title::before{
-background-image: url('../images/pricing/minus-circle.png');
+.section-pricing-question-summary {
+  display: flex;
+  gap: 16px;
+  list-style-type: none;
 }
 
-.section-question-marker::marker {
-  content: "";
+.section-pricing-question-summary::before {
+  content: '';
+  background-image: url('../images/pricing/plus-circle.png');
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+
+details[open] .section-pricing-question-summary::before {
+  background-image: url('../images/pricing/minus-circle.png');
 }
 
 /*endregion pricing question */
+
+
+
+/*region pricing enterpreneur */
+
+.section-pricing-enterpreneur {
+  margin-bottom: 6px;
+}
+
+.section-pricing-enterpreneur-title {
+  font-weight: 700;
+  font-size: 34px;
+  color: #22343d;
+  margin-bottom: 56px;
+  text-align: center;
+}
+
+.section-pricing-enterpreneur-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+
+.section-pricing-enterpreneur-list {}
+
+.section-pricing-enterpreneur-list-item {}
+
+.section-pricing-enterpreneur-item-title {}
+
+.section-pricing-enterpreneur-item-text {}
+
+/*endregion pricing enterpreneur */
