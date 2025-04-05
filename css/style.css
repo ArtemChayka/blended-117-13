@@ -39,6 +39,13 @@ img {
   height: auto;
 }
 
+button {
+  cursor: pointer;
+  padding: 0;
+  border: none;
+  display: block;
+}
+
 .container {
   max-width: 1150px;
   padding: 0 20px;
@@ -102,22 +109,19 @@ img {
   color: #173a56;
   width: 105px;
   height: 42px;
-  background: #fff;
+  background-color: #fff;
   border-radius: 4px;
   border: 1px solid #bcd0e5;
-  cursor: pointer;
 }
 
 .button-two {
   border-radius: 4px;
   width: 113px;
   height: 42px;
-  background: #02897a;
+  background-color: #02897a;
   font-weight: 600;
   font-size: 16px;
   color: #fff;
-  border: none;
-  cursor: pointer;
 }
 
 /* #endregion header */
@@ -165,9 +169,7 @@ img {
   border-radius: 4px;
   width: 178px;
   height: 53px;
-  background: #02897a;
-  border: none;
-  cursor: pointer;
+  background-color: #02897a;
 }
 
 .link-icon-triangle {
@@ -262,17 +264,14 @@ img {
 }
 
 .section-two-button {
-  display: block;
   border-radius: 4px;
   width: 175px;
   height: 53px;
-  background: #02897a;
+  background-color: #02897a;
   font-weight: 700;
   font-size: 16px;
   color: #fff;
   margin: 0 auto;
-  border: none;
-  cursor: pointer;
 }
 
 /* #endregion section two */
@@ -556,7 +555,6 @@ img {
 }
 
 .section-six-btn {
-  display: block;
   margin: 50px auto 0;
   font-weight: 700;
   font-size: 16px;
@@ -564,9 +562,7 @@ img {
   border-radius: 4px;
   width: 216px;
   height: 53px;
-  background: #02897a;
-  border: none;
-  cursor: pointer;
+  background-color: #02897a;
 }
 
 /* #endregion section six */
@@ -647,6 +643,7 @@ img {
   font-size: 34px;
   color: #22343d;
 }
+
 
 .section-eight-text {
   margin-bottom: 40px;
@@ -809,16 +806,15 @@ img {
   border-radius: 8px;
   width: 139px;
   height: 44px;
-  background: #02897a;
+  background-color: #02897a;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   font-size: 18px;
   color: #fff;
-  border: none;
 }
 
 .section-eight-list-item:nth-child(2) .section-eight-btn {
-  background: #fff;
+  background-color: #fff;
   color: #02897a;
 }
 
@@ -964,7 +960,6 @@ img {
   font-weight: 600;
   font-size: 20px;
   color: #02897a;
-  border: none;
 }
 
 .section-ten-btn-customer {
@@ -1101,13 +1096,11 @@ img {
   border-radius: 4px;
   width: 131px;
   height: 39px;
-  background: #02897a;
-  border: none;
+  background-color: #02897a;
   font-weight: 700;
   font-size: 16px;
   text-align: center;
   color: #fff;
-  cursor: pointer;
 }
 
 .footer-end-text {
@@ -1235,18 +1228,15 @@ img {
 }
 
 .section-product-work-btn {
-  display: block;
   border-radius: 8px;
   width: 224px;
   height: 44px;
-  background: #02897a;
-  border: none;
+  background-color: #02897a;
   margin: 0 auto;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 18px;
   color: #fff;
-  cursor: pointer;
 }
 
 .section-product-work-list-item-title {
@@ -1342,9 +1332,148 @@ img {
 
 
 
+
 /* PRICING */
 
-/*region pricing question*/
+
+
+/* #region section eight */
+
+
+.section-eight-pricing {
+  padding: 50px 0 150px;
+}
+
+.section-eight-pricing-title {
+  font-weight: 600;
+  font-size: 24px;
+  color: #22343d;
+  margin-bottom: 32px;
+}
+
+.section-eight-pricing-title-text {
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  color: #22343d;
+  margin-bottom: 16px;
+}
+
+.section-eight-pricing-text {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #22343d;
+    margin-bottom: 49px;
+}
+
+/* #endregion section eight */
+
+
+
+/*#region pricing-enterprise */
+
+.section-pricing-enterprise {
+  padding: 53px 0 51px;
+}
+
+.section-pricing-enterprise-title {
+  font-weight: 600;
+  font-size: 24px;
+  color: #22343d;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.section-pricing-enterprise-subtitle {
+  font-weight: 700;
+  font-size: 34px;
+  color: #22343d;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.section-pricing-enterprise-text {
+  font-weight: 400;
+  font-size: 18px;
+  color: #22343d;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.section-pricing-enterprise-btn {
+  border-radius: 8px;
+  width: 224px;
+  height: 44px;
+  background-color: #02897a;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  margin: 0 auto;
+}
+
+/*#endregion pricing-enterprise */
+
+
+
+
+/*#region pricing enterpreneur */
+
+.section-pricing-enterpreneur {
+  padding: 294px 0 6px;
+}
+
+.section-pricing-enterpreneur-title {
+  font-weight: 700;
+  font-size: 34px;
+  color: #22343d;
+  margin-bottom: 56px;
+  text-align: center;
+}
+
+.section-pricing-enterpreneur-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.section-pricing-enterpreneur-wrapper-two {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.section-pricing-enterpreneur-span {
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: #f4f5f7;
+}
+
+.section-pricing-enterpreneur-item-title {
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  color: #22343d;
+}
+
+.section-pricing-enterpreneur-item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #22343d
+}
+
+/*#endregion pricing enterpreneur */
+
+
+
+/*#region pricing question*/
 
 .section-pricing-question-container {
   max-width: 855px;
@@ -1365,7 +1494,6 @@ img {
   text-align: center;
   margin-bottom: 50px;
 }
-
 
 .section-pricing-question-list-item:not(:last-child) {
   margin-bottom: 16px;
@@ -1402,37 +1530,4 @@ details[open] .section-pricing-question-summary::before {
   background-image: url('../images/pricing/minus-circle.png');
 }
 
-/*endregion pricing question */
-
-
-
-/*region pricing enterpreneur */
-
-.section-pricing-enterpreneur {
-  margin-bottom: 6px;
-}
-
-.section-pricing-enterpreneur-title {
-  font-weight: 700;
-  font-size: 34px;
-  color: #22343d;
-  margin-bottom: 56px;
-  text-align: center;
-}
-
-.section-pricing-enterpreneur-wrapper {
-  display: flex;
-  align-items: center;
-  gap: 60px;
-}
-
-
-.section-pricing-enterpreneur-list {}
-
-.section-pricing-enterpreneur-list-item {}
-
-.section-pricing-enterpreneur-item-title {}
-
-.section-pricing-enterpreneur-item-text {}
-
-/*endregion pricing enterpreneur */
+/*#endregion pricing question */
