@@ -12,7 +12,10 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@500;700&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@400;500;700&display=swap"
     rel="stylesheet" />
-  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/style-index.css" />
+  <link rel="stylesheet" href="./css/style-pricing.css" />
+  <link rel="stylesheet" href="./css/style-customer.css" />
+
   <title>Bisness promotion</title>
 </head>
 
@@ -20,10 +23,11 @@
   <!-- #region header -->
   <header class="header">
     <div class="container header-flex">
+      <a href="./index.html" class="link-header">
+        <svg class="icon-logo" width="40" height="36">
+          <use href="./images/icons.svg#icon-logo"></use>
+        </svg>Product</a>
       <nav class="navigation">
-        <a href="./index.html" class="link-header"><svg class="icon-logo" width="40" height="36">
-            <use href="./images/icons.svg#icon-logo"></use>
-          </svg>Product</a>
         <ul class="nav-list">
           <li class="nav-list-item-one">
             <a href="./index.html">Product</a>
@@ -41,6 +45,9 @@
         <li><button type="button" class="button-one">Sign In</button></li>
         <li><button type="button" class="button-two">Sign Up</button></li>
       </ul>
+      <button type="button" class="btn-mobile-menu"><svg width="28" height="31">
+          <use href="./images/icons.svg#icon-menu"></use>
+        </svg></button>
     </div>
   </header>
   <!-- #endregion header -->
@@ -48,7 +55,7 @@
     <!-- #region section one -->
     <section class="section-one">
       <div class="container section-one-wrapper-one">
-        <div>
+        <div class="section-one-head-wrapper">
           <h1 class="section-one-title">Work at the speed of thought</h1>
           <p class="section-one-text">
             Tools, tutorials, design and innovation experts, all in one place!
@@ -66,12 +73,18 @@
             </a>
           </div>
         </div>
-        <img src="./images/product/hero.png" alt="hero" width="610" height="555" />
+        <div class="section-one-wrapper-three">
+          <picture>
+            <source srcset="./images/product/hero.png 1x, ./images/product/hero@2x.png 2x" media="(min-width: 1150px)">
+            <source srcset="./images/product/hero-mob.png 1x, ./images/product/hero-mob@2x.png 2x" media="(min-width: 411px)">
+            <img src="./images/product/hero.png" alt="hero" />
+          </picture>
+        </div>
       </div>
     </section>
     <!-- #endregion section one -->
     <!-- #region section two -->
-    <section class="section-two">
+    <section class="section-two" hidden>
       <div class="container section-two-container-two">
         <h2 class="section-two-title">
           Product was Built Specifically for You
@@ -127,7 +140,7 @@
     </section>
     <!--#endregion section two -->
     <!-- #region section three -->
-    <section class="section-three">
+    <section class="section-three" hidden>
       <div class="container section-three-container-three">
         <div class="section-three-wrapper">
           <h2 class="section-three-title">
@@ -163,7 +176,7 @@
     </section>
     <!-- #endregion section three -->
     <!-- #region section four -->
-    <section class="section-four">
+    <section class="section-four" hidden>
       <div class="container section-four-wrapper-one">
         <img src="./images/product/support.png" alt="support" width="540" height="500" />
         <div class="section-four-wrapper-two">
@@ -214,7 +227,7 @@
     </section>
     <!-- #endregion section four-->
     <!-- #region section five -->
-    <section class="section-five">
+    <section class="section-five" hidden>
       <div class="container section-five-wrapper-one">
         <div class="section-five-wrapper-two">
           <h2 class="section-five-title">
@@ -248,7 +261,7 @@
     </section>
     <!-- #endregion section five -->
     <!-- #region section six -->
-    <section class="section-six">
+    <section class="section-six" hidden>
       <div class="container section-six-wrapper-one">
         <h2 class="section-six-title">Quick & Easy Process</h2>
         <p class="section-six-text">
@@ -286,7 +299,7 @@
     </section>
     <!-- #endregion section six -->
     <!-- #region section seven -->
-    <section class="section-seven">
+    <section class="section-seven" hidden>
       <div class="container">
         <h2 class="section-seven-title">Contents Strategies</h2>
         <p class="section-seven-text">
@@ -336,7 +349,7 @@
     </section>
     <!-- #endregion section seven -->
     <!-- #region section eight  -->
-    <section class="section-eight">
+    <section class="section-eight" hidden>
       <div class="container">
         <h2 class="section-eight-title">Price Table</h2>
         <p class="section-eight-text">We offer competitive price</p>
@@ -415,7 +428,7 @@
     </section>
     <!-- #endregion section eight  -->
     <!-- #region section nine -->
-    <section class="section-nine">
+    <section class="section-nine" hidden>
       <div class="container section-nine-wrapper-one">
         <h2 class="section-nine-title">What Clients Say</h2>
         <p class="section-nine-text">
@@ -548,7 +561,7 @@
     </section>
     <!-- #endregion section nine -->
     <!-- #region section ten-->
-    <section class="section-ten">
+    <section class="section-ten" hidden>
       <div class="container-ten">
         <h2 class="visually-hidden">Hidden heading section</h2>
         <div class="section-ten-wrapper-one">
@@ -562,9 +575,9 @@
     </section>
     <!-- #endregion section ten -->
   </main>
-  
+
   <!--#region footer-->
-  <footer>
+  <footer hidden>
     <div class="container">
       <div class="footer-container">
         <div class="footer-container-logo">
@@ -574,25 +587,25 @@
             </svg>Product</a>
           <ul class="footer-list">
             <li>
-                <a href="#" class="footer-link-icon">
-                  <svg class="icon-footer" width="24" height="24">
-                    <use href="./images/icons.svg#icon-instagram"></use>
-                  </svg>
-                </a>
+              <a href="#" class="footer-link-icon">
+                <svg class="icon-footer" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
             </li>
             <li>
-                <a href="#" class="footer-link-icon">
-                  <svg class="icon-footer" width="24" height="24">
-                    <use href="./images/icons.svg#icon-facebook"></use>
-                  </svg>
-                </a>
+              <a href="#" class="footer-link-icon">
+                <svg class="icon-footer" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
             </li>
             <li>
-                <a href="#" class="footer-link-icon">
-                  <svg class="icon-footer" width="24" height="24">
-                    <use href="./images/icons.svg#icon-twitter"></use>
-                  </svg>
-                </a>
+              <a href="#" class="footer-link-icon">
+                <svg class="icon-footer" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
             </li>
           </ul>
         </div>
@@ -615,9 +628,10 @@
         </div>
         <form action="#" class="footer-form">
           <h3 class="footer-container-form-title">knowing you're always on the best energy deal.</h3>
-          <div class="footer-form-input-wrapper"><input type="tel" class="footer-form-input" placeholder="Enter your phone number" /><svg class="icon-mobile-phone" width="18" height="28">
-            <use href="./images/icons.svg#icon-mobile-phone"></use>
-          </svg>
+          <div class="footer-form-input-wrapper"><input type="tel" class="footer-form-input"
+              placeholder="Enter your phone number" /><svg class="icon-mobile-phone" width="18" height="28">
+              <use href="./images/icons.svg#icon-mobile-phone"></use>
+            </svg>
           </div>
           <button type="submit" class="footer-form-btn">Sign up Now</button>
         </form>
