@@ -60,9 +60,6 @@ button {
   }
 }
 
-
-
-
 /* #region header */
 /* mobile */
 .button-one,
@@ -166,9 +163,6 @@ button {
 }
 /* #endregion header */
 
-
-
-
 /* #region section one */
 /* mobile */
 .section-one {
@@ -230,4 +224,42 @@ button {
 
 /* desktop */
 
+@media screen and (min-width: 1150px) {
+  .section-one {
+    padding-top: 25px;
+  }
+  .section-one-wrapper-one {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 35px;
+    padding: 0 20px;
+  }
+  .section-one-head-wrapper {
+    max-width: 430px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .section-one-title {
+    font-size: 40px;
+    line-height: 1.5;
+    margin-bottom: 18px;
+    text-align: start;
+  }
+  .section-one-text {
+    margin-bottom: 45px;
+    text-align: start;
+  }
+
+  .section-one-wrapper-two {
+    gap: 30px;
+  }
+  .section-one-button {
+    width: 178px;
+  }
+  .icon-triangle {
+    border-radius: 2px;
+  }
+
+}
 /* #endregion section one */

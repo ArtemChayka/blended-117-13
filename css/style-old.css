@@ -1,55 +1,5 @@
 
 
-
-
-
-
-
-
-
-
-
-/* #region section one */
-
-.section-one {
-  padding: 25px 0 100px;
-}
-.section-one-wrapper-one {
-  align-items: center;
-  justify-content: space-between;
-  gap: 35px;
-}
-
-.section-one-title {
-  font-size: 40px;
-  line-height: 1.5;
-  margin-bottom: 18px;
-}
-
-.section-one-text {
-  margin-bottom: 45px;
-}
-
-
-
-.section-one-wrapper-two {
-  display: flex;
-  justify-content: flex-start;
-  gap: 30px;
-}
-
-.section-one-button {
-  width: 178px;
-}
-
-
-.icon-triangle {
-  border-radius: 2px;
-}
-
-/* #endregion section one */
-
-
 /* #region section two */
 .section-two-container-two {
   max-width: 1030px;
