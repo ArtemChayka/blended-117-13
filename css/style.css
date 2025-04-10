@@ -227,7 +227,7 @@ button {
 
 @media screen and (min-width: 1150px) {
   .section-one {
-    padding-top: 25px;
+    padding: 25px 0 100px;
   }
   .section-one-wrapper-one {
     flex-direction: row;
@@ -246,6 +246,7 @@ button {
     line-height: 1.5;
     margin-bottom: 18px;
     text-align: start;
+    max-width: 390px;
   }
   .section-one-text {
     margin-bottom: 45px;
@@ -267,32 +268,26 @@ button {
 /* #region section two */
 /* mobile */
 
-.section-two{
-  padding-bottom: 38px;
+.section-two {
+  padding: 16px 0 38px;
 }
-.section-two-container-two{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.section-two-title{
+.section-two-title {
   font-weight: 700;
   font-size: 32px;
-  text-align: center;
   color: #22343d;
-  margin: 0 auto 50px;
+  text-align: center;
+  margin-bottom: 50px;
 }
-.section-two-list{
+.section-two-list {
   display: flex;
   flex-wrap: wrap;
   gap: 32px;
   justify-content: center;
 }
-.section-two-list-item{
-  max-width: 210px;
+.section-two-list-item {
+  max-width: 215px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
 }
 .span-section-two {
@@ -303,7 +298,7 @@ button {
   width: 50px;
   height: 50px;
   margin-bottom: 24px;
-  background: #02897a;
+  background-color: #02897a;
 }
 .span-two-section-two {
   background: #4d8dff;
@@ -318,10 +313,10 @@ button {
 }
 
 .section-two-list-title {
-  margin-bottom: 8px;
   font-weight: 600;
   font-size: 22px;
   color: #22343d;
+    margin-bottom: 8px;
 }
 .section-two-list-text {
   font-weight: 400;
@@ -342,10 +337,39 @@ button {
   font-weight: 700;
   font-size: 16px;
   color: #fff;
-  margin: 50px auto 0;
+  margin: 32px auto 0;
 }
 
 /* desktop */
-
+@media screen and (min-width: 1150px) {
+  .section-two {
+    padding-bottom: 50px;
+  }
+  .section-two-container-two {
+  max-width: 1030px;
+}
+  .section-two-list {
+    justify-content: space-between;
+    gap: 30px;
+  }
+  .section-two-list-item {
+    max-width: calc((100% - 90px) / 4);
+    align-items: flex-start;
+  }
+  .section-two-list-text {
+    text-align: left;
+  }
+  .span-section-two {
+  width: 54px;
+  height: 54px;
+  margin-bottom: 26px;
+}
+.section-two-list-title {
+  margin-bottom: 13px;
+}
+.section-two-button {
+    margin-top: 50px;
+  }
+}
 
 /* #endregion section two */

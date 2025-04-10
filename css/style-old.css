@@ -1,45 +1,22 @@
 
 
 /* #region section two */
-.section-two-container-two {
-  max-width: 1030px;
-}
 
-.section-two {
-  padding-bottom: 50px;
-}
 
 .section-two-title {
   max-width: 506px;
 }
 
-.section-two-list {
-  justify-content: space-between;
-  gap: 30px;
-  margin-bottom: 50px;
-}
 
-.section-two-list-item {
-  width: calc((100% - 90px) / 4);
-}
 
-.span-section-two {
-  width: 54px;
-  height: 54px;
-  background: #02897a;
-  margin-bottom: 26px;
-}
 
-.section-two-list-title {
-  margin-bottom: 13px;
-}
-.section-two-list-text {
-  text-align: left;
-}
 
-.section-two-button {
-  margin: 0 auto;
-}
+
+
+
+
+
+
 
 /* #endregion section two */
 
