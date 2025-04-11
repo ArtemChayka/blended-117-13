@@ -246,7 +246,7 @@
     </section>
     <!-- #endregion section four-->
     <!-- #region section five -->
-    <section class="section-five" hidden>
+    <section class="section-five">
       <div class="container section-five-wrapper-one">
         <div class="section-five-wrapper-two">
           <h2 class="section-five-title">
@@ -275,12 +275,15 @@
             </li>
           </ul>
         </div>
-        <img src="./images/product/collaboration.png" alt="collaboration" width="540" height="500" />
+        <div><picture>
+          <source srcset="./images/product/collaboration.png 1x, ./images/product/collaboration@2x.png" media="(min-width: 1150px)">
+          <source srcset="./images/product/collaboration-mob.png 1x, ./images/product/collaboration-mob@2x.png" media="(max-width: 1149px)">
+          <img src="./images/product/collaboration.png" alt="collaboration" width="540" height="500" /></picture></div>
       </div>
     </section>
     <!-- #endregion section five -->
     <!-- #region section six -->
-    <section class="section-six" hidden>
+    <section class="section-six">
       <div class="container section-six-wrapper-one">
         <h2 class="section-six-title">Quick & Easy Process</h2>
         <p class="section-six-text">
@@ -289,27 +292,50 @@
         </p>
         <ul class="section-six-list">
           <li class="section-six-list-item">
-            <img src="./images/product/avatar-one.png" alt="avatar" width="98" height="98" />
-            <p class="section-six-list-item-text">
-              I can take care of your pitch
-            </p>
+            <picture>
+              <source srcset="./images/product/avatar-one.png 1x, ./images/product/avatar-one@2x.png 2x" media="(min-width: 1150px)">
+              <source srcset="./images/product/avatar-one-mob.png 1x, ./images/product/avatar-one-mob@2x.png 2x" media="(max-width: 1149px)">
+              <img src="./images/product/avatar-one.png" alt="avatar"/>
+            </picture>
+            <div class="section-six-list-item-wrapper">
+              <p class="section-six-list-item-text">
+                I can take care of your pitch
+              </p>
+            </div>
           </li>
           <li class="section-six-list-item">
-            <img src="./images/product/avatar-two.png" alt="avatar" width="98" height="98" />
-            <p class="section-six-list-item-text">I can prototype your app</p>
+            <picture>
+              <source srcset="./images/product/avatar-two.png 1x, ./images/product/avatar-two@2x.png 2x" media="(min-width: 1150px)">
+              <source srcset="./images/product/avatar-two-mob.png 1x, ./images/product/avatar-two-mob@2x.png 2x" media="(max-width: 1149px)">
+              <img src="./images/product/avatar-two.png" alt="avatar"/>
+            </picture>
+          <div class="section-six-list-item-wrapper">
+              <p class="section-six-list-item-text">
+                I can design your website
+              </p>
+          </div>
           </li>
           <li class="section-six-list-item">
-            <img src="./images/product/avatar-three.png" alt="avatar" width="98" height="98" />
-            <p class="section-six-list-item-text">
-              I can take care of your pitch
-            </p>
+            <picture>
+              <source srcset="./images/product/avatar-three.png 1x, ./images/product/avatar-three@2x.png 2x" media="(min-width: 1150px)">
+              <source srcset="./images/product/avatar-three-mob.png 1x, ./images/product/avatar-three-mob@2x.png 2x" media="(max-width: 1149px)">
+              <img src="./images/product/avatar-three.png" alt="avatar"/>
+            </picture>
+           <div class="section-six-list-item-wrapper">
+              <p class="section-six-list-item-text">
+                I can help marketing strategy
+              </p>
+           </div>
           </li>
           <li class="section-six-list-item">
-            <img src="./images/product/avatar-four.png" alt="avatar" width="98" height="98" />
-            <p class="section-six-list-item-text">
-              I can help marketing strategy
-            </p>
+            <picture>
+              <source srcset="./images/product/avatar-four.png 1x, ./images/product/avatar-four@2x.png 2x" media="(min-width: 1150px)">
+              <source srcset="./images/product/avatar-four-mob.png 1x, ./images/product/avatar-four-mob@2x.png 2x" media="(max-width: 1149px)">
+              <img src="./images/product/avatar-four.png" alt="avatar"/>
+            </picture>
+            <div class="section-six-list-item-wrapper"><p class="section-six-list-item-text">I can prototype your app</p></div>
           </li>
+         
         </ul>
         <button type="button" class="section-six-btn">
           Contact our expert
