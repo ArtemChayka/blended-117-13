@@ -779,5 +779,192 @@ button {
 /* #endregion section seven */
 
 /* #region section eight */
+.section-eight {
+  padding-bottom: 100px;
+}
+.section-eight-title {
+  margin-bottom: 8px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 34px;
+}
+.section-eight-text {
+  margin-bottom: 74px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+}
+.section-eight-wrapper-one {
+  padding: 0 41px;
+}
+.section-eight-list {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.section-eight-list-item {
+  width: 322px;
+  padding: 24px 0 32px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.section-eight-list-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.66;
+  text-align: center;
+  /* margin-bottom: 8px; */
+}
+
+.section-eight-list-text {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2.5;
+  /* margin-bottom: 16px; */
+}
+.section-eight-list-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.section-eight-list-subcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 4px;
+  margin-left: 8px;
+}
+.section-eight-list-item:nth-child(2) .section-eight-list-subcontainer {
+  gap: 7px;
+}
+.section-eight-list-sign {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.25;
+  letter-spacing: 0em;
+  color: #02897a;
+}
+.section-eight-list-subtitle {
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 1.32;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #02897a;
+}
+
+.section-eight-list-subtext {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.01em;
+  color: #afafaf;
+}
+.section-eight-endlist {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 38px;
+}
+.section-eight-endlist-item {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.38;
+  letter-spacing: 0.01em;
+}
+.section-eight-btn {
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 8px;
+  width: 139px;
+  height: 44px;
+  background-color: #02897a;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+}
+.section-eight-list-item:hover,
+.section-eight-list-item:focus {
+  background-color: #02897a;
+}
+.section-eight-list-item:hover .section-eight-list-title,.section-eight-list-text,.section-eight-list-sign,
+.section-eight-list-item:focus .section-eight-list-title,.section-eight-list-text,.section-eight-list-sign {
+  color: #fff;
+}
+.section-eight-list-item:hover .section-eight-list-sign,.section-eight-list-subtitle,.section-eight-endlist-item,
+.section-eight-list-item:focus .section-eight-list-sign,.section-eight-list-subtitleб.section-eight-endlist-item {
+  color: #fff;
+}
+
+.section-eight-list-item:hover .section-eight-list-subtext,
+.section-eight-list-item:focus .section-eight-list-subtext {
+  color: #e0e0e0;
+}
+.section-eight-list-item:hover .section-eight-btn,
+.section-eight-list-item:focus .section-eight-btn {
+  background-color: #fff;
+  color: #02897a;
+}
+
+/* desktop */
+@media screen and (min-width: 1150px) {
+  .section-eight-title {
+    margin-bottom: 10px;
+  }
+  .section-eight-text {
+    margin-bottom: 40px;
+  }
+  .section-eight-list {
+    flex-wrap: nowrap;
+    gap: 72px;
+    justify-content: space-between;
+  }
+  .section-eight-list-item {
+    width: calc((100% - 144px) / 3);
+    padding: 32px 0;
+  }
+  .section-eight-list-text {
+    font-family: 'Montserrat', sans-serif;
+  }
+  .section-eight-list-text {
+    font-family: 'Montserrat', sans-serif;
+  }
+  .section-eight-list-item:nth-child(2) > .section-eight-list-title,
+  .section-eight-list-item:nth-child(3) > .section-eight-list-title {
+    font-family: 'Montserrat', sans-serif;
+  }
+  .section-eight-list-subcontainer {
+    margin-left: 7px;
+  }
+  .section-eight-list-item:nth-child(2) .section-eight-list-subcontainer {
+    margin-left: 10px;
+  }
+  .section-eight-list-item:nth-child(2) .section-eight-list-subcontainer {
+    gap: 7px;
+  }
+  .section-eight-list-subtext {
+    font-family: 'Montserrat', sans-serif;
+  }
+  .section-eight-endlist {
+    margin-bottom: 30px;
+  }
+  .section-eight-endlist-item {
+    font-family: 'Montserrat', sans-serif;
+  }
+}
 /* #endregion section eight */
 
+/* #region section nine */
+/* #endregion section nine */
