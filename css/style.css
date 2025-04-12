@@ -899,19 +899,31 @@ button {
 .section-eight-list-item:focus {
   background-color: #02897a;
 }
-.section-eight-list-item:hover .section-eight-list-title,.section-eight-list-text,.section-eight-list-sign,
-.section-eight-list-item:focus .section-eight-list-title,.section-eight-list-text,.section-eight-list-sign {
+.section-eight-list-item:hover .section-eight-list-title,
+.section-eight-list-item:focus .section-eight-list-title {
   color: #fff;
 }
-.section-eight-list-item:hover .section-eight-list-sign,.section-eight-list-subtitle,.section-eight-endlist-item,
-.section-eight-list-item:focus .section-eight-list-sign,.section-eight-list-subtitleб.section-eight-endlist-item {
+.section-eight-list-item:hover .section-eight-list-text,
+.section-eight-list-item:focus .section-eight-list-text {
   color: #fff;
 }
-
+.section-eight-list-item:hover .section-eight-list-sign,
+.section-eight-list-item:focus .section-eight-list-sign {
+  color: #fff;
+}
 .section-eight-list-item:hover .section-eight-list-subtext,
 .section-eight-list-item:focus .section-eight-list-subtext {
   color: #e0e0e0;
 }
+.section-eight-list-item:hover .section-eight-list-subtitle,
+.section-eight-list-item:focus .section-eight-list-subtitle {
+  color: #fff;
+}
+.section-eight-list-item:hover .section-eight-endlist-item,
+.section-eight-list-item:focus .section-eight-endlist-item {
+  color: #fff;
+}
+
 .section-eight-list-item:hover .section-eight-btn,
 .section-eight-list-item:focus .section-eight-btn {
   background-color: #fff;
